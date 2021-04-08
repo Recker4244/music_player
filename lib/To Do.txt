@@ -1,0 +1,7 @@
+1.Add shadow to boxes in music player-done
+2.Add playlist screen-done
+3.Add shuffle functionality
+4.Use Audioservice to play audio in background
+5.Add functionality of controlling playback through notification, headset controls 
+.(Optional) Increase performance by using sqlite for handling the files
+.Update repo for the project
