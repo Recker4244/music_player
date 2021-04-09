@@ -27,7 +27,7 @@ A simple music player application for Android made using [Flutter](https://flutt
 - [audio_service](https://pub.dev/packages/audio_service)
 
 ## 🖼️ Screenshots
-<img src="Screenshots/4.jpg"/> <img src="Screenshots/1.jpeg"/> <img src="Screenshots/2.jpeg"/> <img src="Screenshots/3.jpeg"/> 
+<img src="Screenshots/4.jpg" height="500em"/> <img src="Screenshots/1.jpeg" height="500em"/> <img src="Screenshots/2.jpeg" height="500em"/> <img src="Screenshots/3.jpeg" height="500em"/> 
 
 ## 🎨 Features
 
