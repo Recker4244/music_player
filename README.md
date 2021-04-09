@@ -1,10 +1,10 @@
 
 
-# ![𝖬𝗎𝗌𝗂𝖼 𝖯𝗅𝖺𝗒𝖾𝗋 🎵]
+# 𝖬𝗎𝗌𝗂𝖼 𝖯𝗅𝖺𝗒𝖾𝗋 🎵
 
 > Music Player Application for Android - Simple, Robust and Beautiful
 
-[![license](https://img.shields.io/github/license/nhn/tui.editor.svg)](https://github.com/nhn/tui.editor/blob/master/LICENSE) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/nhn/tui.editor/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) [![code with hearth by me](https://github.com/Recker4244)
+[![license](https://img.shields.io/github/license/nhn/tui.editor.svg)](https://github.com/nhn/tui.editor/blob/master/LICENSE) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/nhn/tui.editor/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 
 :star: Star this repo on GitHub — it helps!
 
@@ -27,7 +27,7 @@ A simple music player application for Android made using [Flutter](https://flutt
 - [audio_service](https://pub.dev/packages/audio_service)
 
 ## 🖼️ Screenshots
-<img src="Screenshots/4.jpg" height="300em" /> <img src="Screenshots/1.jpeg" height="300em" /> <img src="Screenshots/2.jpeg" height="300em" /> <img src="Screenshots/3.jpeg" height="300em" /> 
+<img src="Screenshots/4.jpg"/> <img src="Screenshots/1.jpeg"/> <img src="Screenshots/2.jpeg"/> <img src="Screenshots/3.jpeg"/> 
 
 ## 🎨 Features
 
@@ -36,6 +36,11 @@ A simple music player application for Android made using [Flutter](https://flutt
 * Repeat/Shuffle play your favourite songs from Library
 * Seek position on current playing track
 * onComplete
+
+## Releases
+* [ARM64 v8a](..\build\app\outputs\flutter-apk\app-arm64-v8a-release.apk)
+* [ARMabi v7a](..\build\app\outputs\flutter-apk\app-armeabi-v7a-release.apk)
+* [x86_64](..\build\app\outputs\flutter-apk\app-x86_64-release.apk)
 
 ## 📜 License
 
