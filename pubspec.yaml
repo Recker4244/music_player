@@ -67,6 +67,7 @@ flutter:
     
   assets:
     - assets/icons/launcher.png
+    - assets/images/music_gradient.jpg
    # - assets/  
 
     

@@ -5,6 +5,7 @@ import 'dart:typed_data';
 import 'search.dart';
 import 'package:flutter_audio_query/flutter_audio_query.dart';
 import 'dart:io';
+import 'package:flutter/services.dart';
 import 'package:musicplayer/music_player.dart';
 class Tracks extends StatefulWidget {
 _TracksState createState()=>_TracksState();
@@ -42,7 +43,9 @@ class _TracksState extends State<Tracks> {
   }
   Widget build(context) {
     return Scaffold(
+      //backgroundColor: Colors.blue,
       appBar: AppBar(backgroundColor: Colors.white,
+      brightness: Brightness.light, 
       leading: ImageIcon(AssetImage('assets/icons/launcher.png'),color:Colors.deepPurple,size: 30.0,),//Icon(CupertinoIcons.music_note_2,color: Colors.black),
       title: Text('Music Player', 
       style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 30.0

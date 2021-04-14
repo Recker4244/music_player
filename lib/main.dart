@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:musicplayer/search.dart';
 import 'package:musicplayer/tracks.dart';
 import 'package:musicplayer/playlist.dart';
+import 'package:flutter/services.dart';
 import 'package:audio_service/audio_service.dart';
 void main() {
+
+   
   runApp(MyApp());
 }
 
@@ -11,6 +14,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    
     return MaterialApp(
       initialRoute: '/',
       routes: {

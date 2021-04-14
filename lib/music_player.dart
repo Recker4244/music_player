@@ -131,22 +131,22 @@ class MusicPlayerState extends State<MusicPlayer> {
                             child: CircularProgressIndicator(),
                           );
                     
-                        // if (snapshot.data.isEmpty)
-                        //   return CircleAvatar(
-                        //     backgroundImage: AssetImage('assets/images/music_gradient.jpg'),
-                        //   );
+                        if (snapshot.data.isEmpty)
+                          return CircleAvatar(
+                            backgroundImage: AssetImage('assets/images/music_gradient.jpg'),
+                          );
 
-                        if(snapshot.data.isEmpty)
-                        return Container(
-                           width: 320,
-                           margin: EdgeInsets.fromLTRB(20, 0, 20, 0),
-                           height: 300,
-                           child:ClipRRect(
+                        // if(snapshot.data.isEmpty)
+                        // return Container(
+                        //    width: 320,
+                        //    margin: EdgeInsets.fromLTRB(20, 0, 20, 0),
+                        //    height: 300,
+                        //    child:ClipRRect(
                              
-                           borderRadius: BorderRadius.circular(20),
-                           child: Image(image:AssetImage('assets/images/music_gradient.jpg')),
-                           )
-                           );
+                        //    borderRadius: BorderRadius.circular(20),
+                        //    child: Image(image:AssetImage('assets/images/music_gradient.jpg')),
+                        //    )
+                        //    );
                         
                          return Material(
                            elevation: 15.0,

@@ -53,7 +53,7 @@ class _SearchState extends State<Search> {
         leadingWidth: 30.0,
         
        title:CupertinoTextField( 
-         
+         placeholder: "Search for your song",
       //TextField(
               
           // decoration: InputDecoration(
