@@ -38,9 +38,9 @@ A simple music player application for Android made using [Flutter](https://flutt
 * onComplete
 
 ## Releases
-* [ARM64 v8a](..\build\app\outputs\flutter-apk\app-arm64-v8a-release.apk)
-* [ARMabi v7a](..\build\app\outputs\flutter-apk\app-armeabi-v7a-release.apk)
-* [x86_64](..\build\app\outputs\flutter-apk\app-x86_64-release.apk)
+* [ARM64 v8a](..\Builds\app-arm64-v8a-release.apk)
+* [ARMabi v7a](..\Builds\app-armeabi-v7a-release.apk)
+* [x86_64](..\Builds\app-x86_64-release.apk)
 
 ## 📜 License
 
