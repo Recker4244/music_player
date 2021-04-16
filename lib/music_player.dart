@@ -131,22 +131,33 @@ class MusicPlayerState extends State<MusicPlayer> {
                             child: CircularProgressIndicator(),
                           );
                     
-                        if (snapshot.data.isEmpty)
-                          return CircleAvatar(
-                            backgroundImage: AssetImage('assets/images/music_gradient.jpg'),
-                          );
+                        // if (snapshot.data.isEmpty)
+                        //   return CircleAvatar(
+                        //     backgroundImage: AssetImage('assets/images/music_gradient.jpg'),
+                        //   );
 
-                        // if(snapshot.data.isEmpty)
-                        // return Container(
-                        //    width: 320,
-                        //    margin: EdgeInsets.fromLTRB(20, 0, 20, 0),
-                        //    height: 300,
-                        //    child:ClipRRect(
+                        if(snapshot.data.isEmpty)
+                        return Material(
+                           elevation: 15.0,
+                           borderRadius: BorderRadius.circular(20),
+                           child: ClipRRect(
+                               
+                             borderRadius: BorderRadius.circular(20),
                              
-                        //    borderRadius: BorderRadius.circular(20),
-                        //    child: Image(image:AssetImage('assets/images/music_gradient.jpg')),
-                        //    )
-                        //    );
+                             child:Container(
+                             
+                             decoration: BoxDecoration(
+                               shape: BoxShape.rectangle,
+                               //color: Colors.red,
+                               borderRadius: BorderRadius.all(Radius.circular(20)),),
+                               child:Image(image: AssetImage('assets/images/music_gradient.jpg'),),
+                             margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                             height: MediaQuery.of(context).size.height*0.45,
+                             //width: MediaQuery.of(context).size.width*0.75,
+                             
+                             ),
+                           )
+                         );
                         
                          return Material(
                            elevation: 15.0,
@@ -234,7 +245,7 @@ class MusicPlayerState extends State<MusicPlayer> {
 
                 Container(
                   transform: Matrix4.translationValues(0,-7,0),
-                  margin: EdgeInsets.fromLTRB(20,0,20,0),
+                  margin: EdgeInsets.fromLTRB(5,0,5,0),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
@@ -315,6 +326,7 @@ class MusicPlayerState extends State<MusicPlayer> {
                       );
                     },
                   ),
+                  Icon(CupertinoIcons.music_note_list,color: Colors.deepPurple,)
                   ],
               ),
                 ),

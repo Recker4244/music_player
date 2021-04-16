@@ -62,7 +62,8 @@ class _playlistState extends State<Playlist> {
       ),
       body: ListView.separated(
         separatorBuilder:(context,index)=>Divider(),
-        itemCount: playlists==null?0:playlists.length,
+        //itemCount: playlists==null?0:playlists.length,
+        itemCount: playlists.length,
         itemBuilder: (context,index)=>ListTile(title: Text(playlists[index].name),
         )
       ),
